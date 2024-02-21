@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.reveal {
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+}
+
+.caption{
+   text-align: center;
+}
+
+.reveal .slide-background {
+  background-image: url("Blanca.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.logo-container {
+  position: fixed;
+  top: 10px;  
+  right: 10px;  
+  z-index: 1000;  
+}
+
+.logo-container img {
+  width: 100px;  
+  height: auto;
+}
+
+
+
+.slides {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+
+.reveal .slides section {
+  padding: 0% 0% 5% 0%; /* Añade un 5% de padding en la parte inferior */
+  box-sizing: border-box;
+  max-width: 92%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+/* Ajustar el tamaño de la letra del título */
+
+.reveal h1 {
+  color: #001966; /* Color del texto */
+  font-size: 60px; /* Tamaño del texto */
+  line-height: 1; /* Espaciado entre líneas */
+  padding: 0px ; /* Espaciado superior e inferior para controlar la altura */
+  text-align: center; /* Alinea el texto al centro */
+  max-width: 100%; /* Máximo ancho del título */
+  margin: 10 auto; /* Centra el título horizontalmente */
+  box-sizing: border-box; /* Asegura que el padding no aumente el tamaño total */
+}
+
+/* Ajustar el tamaño de la letra del subtítulo */
+.reveal h2 {
+  color: #001966;
+  font-size: 40px;
+  text-align: left; 
+  line-height: 1.2;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* Contenido general */
+.reveal section {
+  font-size: 20px; /* Cambia el tamaño de la fuente según lo necesites */
+}
+
+/* Ajustar el tamaño de la letra de la descripción */
+.reveal p {
+  font-size: 15px;
+}
+
+.reveal li {
+  font-size: 15px;
+  margin-top: 1px;    /* Ajusta según necesites */
+  margin-bottom: 0px;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.reveal h3 {
+  font-size: 17px;
+  margin-top: 10 px;    /* Ajusta según necesites */
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.reveal h4 {
+  line-height: 1;
+  margin-top: 1px;    /* Ajusta según necesites */
+  margin-bottom: 1px ; /* Ajusta según necesites */
+}
+
+/* Índices (si estás usando alguna forma de navegación o índice) */
+.reveal .indice-clase { /* Reemplaza '.indice-clase' por la clase real que estás usando */
+  font-size: 18px; /* Cambia el tamaño de la fuente según lo necesites */
+}
+
+
+.reveal .slides table {
+  margin-bottom: 100px; /* Espacio entre la tabla y el margen inferior de la sección */
+}
+
+.scrollable-table {
+  overflow-y: auto; /* Habilita el desplazamiento vertical si el contenido es más alto que el contenedor */
+  max-height: 400px; /* Ajusta este valor al máximo altura disponible para la tabla en tu diapositiva */
+  margin-bottom: 20px; /* Espacio entre la tabla desplazable y cualquier contenido debajo de ella */
+}

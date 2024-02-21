@@ -1,0 +1,2200 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<script src="ppt_se_files/libs/clipboard/clipboard.min.js"></script>
+<script src="ppt_se_files/libs/quarto-html/tabby.min.js"></script>
+<script src="ppt_se_files/libs/quarto-html/popper.min.js"></script>
+<script src="ppt_se_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="ppt_se_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="ppt_se_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="ppt_se_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="ppt_se_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.4.547">
+
+  <title>Bioeconomía en Bogotá - Región</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="ppt_se_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="ppt_se_files/libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="ppt_se_files/libs/revealjs/dist/theme/quarto.css">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link href="ppt_se_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="ppt_se_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="ppt_se_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="ppt_se_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+
+  .callout {
+    margin-top: 1em;
+    margin-bottom: 1em;  
+    border-radius: .25rem;
+  }
+
+  .callout.callout-style-simple { 
+    padding: 0em 0.5em;
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+    display: flex;
+  }
+
+  .callout.callout-style-default {
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+  }
+
+  .callout .callout-body-container {
+    flex-grow: 1;
+  }
+
+  .callout.callout-style-simple .callout-body {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-style-default .callout-body {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-titled.callout-style-simple .callout-body {
+    margin-top: 0.2em;
+  }
+
+  .callout:not(.callout-titled) .callout-body {
+      display: flex;
+  }
+
+  .callout:not(.no-icon).callout-titled.callout-style-simple .callout-content {
+    padding-left: 1.6em;
+  }
+
+  .callout.callout-titled .callout-header {
+    padding-top: 0.2em;
+    margin-bottom: -0.2em;
+  }
+
+  .callout.callout-titled .callout-title  p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+    
+  .callout.callout-titled.callout-style-simple .callout-content  p {
+    margin-top: 0;
+  }
+
+  .callout.callout-titled.callout-style-default .callout-content  p {
+    margin-top: 0.7em;
+  }
+
+  .callout.callout-style-simple div.callout-title {
+    border-bottom: none;
+    font-size: .9rem;
+    font-weight: 600;
+    opacity: 75%;
+  }
+
+  .callout.callout-style-default  div.callout-title {
+    border-bottom: none;
+    font-weight: 600;
+    opacity: 85%;
+    font-size: 0.9rem;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-default div.callout-content {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-simple .callout-icon::before {
+    height: 1rem;
+    width: 1rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+  }
+
+  .callout.callout-style-default .callout-icon::before {
+    height: 0.9rem;
+    width: 0.9rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+  }
+
+  .callout-title {
+    display: flex
+  }
+    
+  .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  .callout.no-icon::before {
+    display: none !important;
+  }
+
+  .callout.callout-titled .callout-body > .callout-content > :last-child {
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
+  }
+
+  .callout.callout-titled .callout-icon::before {
+    margin-top: .5rem;
+    padding-right: .5rem;
+  }
+
+  .callout:not(.callout-titled) .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  /* Callout Types */
+
+  div.callout-note {
+    border-left-color: #4582ec !important;
+  }
+
+  div.callout-note .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEU0lEQVRYCcVXTWhcVRQ+586kSUMMxkyaElstCto2SIhitS5Ek8xUKV2poatCcVHtUlFQk8mbaaziwpWgglJwVaquitBOfhQXFlqlzSJpFSpIYyXNjBNiTCck7x2/8/LeNDOZxDuEkgOXe++553zfefee+/OYLOXFk3+1LLrRdiO81yNqZ6K9cG0P3MeFaMIQjXssE8Z1JzLO9ls20MBZX7oG8w9GxB0goaPrW5aNMp1yOZIa7Wv6o2ykpLtmAPs/vrG14Z+6d4jpbSKuhdcSyq9wGMPXjonwmESXrriLzFGOdDBLB8Y6MNYBu0dRokSygMA/mrun8MGFN3behm6VVAwg4WR3i6FvYK1T7MHo9BK7ydH+1uurECoouk5MPRyVSBrBHMYwVobG2aOXM07sWrn5qgB60rc6mcwIDJtQrnrEr44kmy+UO9r0u9O5/YbkS9juQckLed3DyW2XV/qWBBB3ptvI8EUY3I9p/67OW+g967TNr3Sotn3IuVlfMLVnsBwH4fsnebJvyGm5GeIUA3jljERmrv49SizPYuq+z7c2H/jlGC+Ghhupn/hcapqmcudB9jwJ/3jvnvu6vu5lVzF1fXyZuZZ7U8nRmVzytvT+H3kilYvH09mLWrQdwFSsFEsxFVs5fK7A0g8gMZjbif4ACpKbjv7gNGaD8bUrlk8x+KRflttr22JEMRUbTUwwDQScyzPgedQHZT0xnx7ujw2jfVfExwYHwOsDTjLdJ2ebmeQIlJ7neo41s/DrsL3kl+W2lWvAga0tR3zueGr6GL78M3ifH0rGXrBC2aAR8uYcIA5gwV8zIE8onoh8u0Fca/ciF7j1uOzEnqcIm59sEXoGc0+z6+H45V1CvAvHcD7THztu669cnp+L0okAeIc6zjbM/24LgGM1gZk7jnRu1aQWoU9sfUOuhrmtaPIO3YY1KLLWZaEO5TKUbMY5zx8W9UJ6elpLwKXbsaZ4EFl7B4bMtDv0iRipKoDQT2sNQI9b1utXFdYisi+wzZ/ri/1m7QfDgEuvgUUEIJPq3DhX/5DWNqIXDOweC2wvIR90Oq3lDpdMIgD2r0dXvGdsEW5H6x6HLRJYU7C69VefO1x8Gde1ZFSJLfWS1jbCnhtOPxmpfv2LXOA2Xk2tvnwKKPFuZ/oRmwBwqRQDcKNeVQkYcOjtWVBuM/JuYw5b6isojIkYxyYAFn5K7ZBF10fea52y8QltAg6jnMqNHFBmGkQ1j+U43HMi2xMar1Nv0zGsf1s8nUsmUtPOOrbFIR8bHFDMB5zL13Gmr/kGlCkUzedTzzmzsaJXhYawnA3UmARpiYj5ooJZiUoxFRtK3X6pgNPv+IZVPcnwbOl6f+aBaO1CNvPW9n9LmCp01nuSaTRF2YxHqZ8DYQT6WsXT+RD6eUztwYLZ8rM+rcPxamv1VQzFUkzFXvkiVrySGQgJNvXHJAxiU3/NwiC03rSf05VBaPtu/Z7/B8Yn/w7eguloAAAAAElFTkSuQmCC');
+  }
+
+  div.callout-note.callout-style-default .callout-title {
+    background-color: #dae6fb
+  }
+
+  div.callout-important {
+    border-left-color: #d9534f !important;
+  }
+
+  div.callout-important .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEKklEQVRYCcVXTWhcVRS+575MJym48A+hSRFr00ySRQhURRfd2HYjk2SSTokuBCkU2o0LoSKKraKIBTcuFCoidGFD08nkBzdREbpQ1EDNIv8qSGMFUboImMSZd4/f9zJv8ibJMC8xJQfO3HPPPef7zrvvvnvviIkpC9nsw0UttFunbUhpFzFtarSd6WJkStVMw5xyVqYTvkwfzuf/5FgtkVoB0729j1rjXwThS7Vio+Mo6DNnvLfahoZ+i/o32lULuJ3NNiz7q6+pyAUkJaFF6JwaM2lUJlV0MlnQn5aTRbEu0SEqHUa0A4AdiGuB1kFXRfVyg5d87+Dg4DL6m2TLAub60ilj7A1Ec4odSAc8X95sHh7+ZRPCFo6Fnp7HfU/fBng/hi10CjCnWnJjsxvDNxWw0NfV6Rv5GgP3I3jGWXumdTD/3cbEOP2ZbOZp69yniG3FQ9z1jD7bnBu9Fc2tKGC2q+uAJOQHBDRiZX1x36o7fWBs7J9ownbtO+n0/qWkvW7UPIfc37WgT6ZGR++EOJyeQDSb9UB+DZ1G6DdLDzyS+b/kBCYGsYgJbSQHuThGKRcw5xdeQf8YdNHsc6ePXrlSYMBuSIAFTGAtQo+VuALo4BX83N190NWZWbynBjhOHsmNfFWLeL6v+ynsA58zDvvAC8j5PkbOcXCMg2PZFk3q8MjI7WAG/Dp9AwP7jdGBOOQkAvlFUB+irtm16I1Zw9YBcpGTGXYmk3kQIC/Cds55l+iMI3jqhjAuaoe+am2Jw5GT3Nbz3CkE12NavmzN5+erJW7046n/CH1RO/RVa8lBLozXk9uqykkGAyRXLWlLv5jyp4RFsG5vGVzpDLnIjTWgnRy2Rr+tDKvRc7Y8AyZq10jj8DqXdnIRNtFZb+t/ZRtXcDiVnzpqx8mPcDWxgARUqx0W1QB9MeUZiNrV4qP+Ehc+BpNgATsTX8ozYKL2NtFYAHc84fG7ndxUPr+AR/iQSns7uSUufAymwDOb2+NjK27lEFocm/EE2WpyIy/Hi66MWuMKJn8RvxIcj87IM5Vh9663ziW36kR0HNenXuxmfaD8JC7tfKbrhFr7LiZCrMjrzTeGx+PmkosrkNzW94ObzwocJ7A1HokLolY+AvkTiD/q1H0cN48c5EL8Crkttsa/AXQVDmutfyku0E7jShx49XqV3MFK8IryDhYVbj7Sj2P2eBxwcXoe8T8idsKKPRcnZw1b+slFTubwUwhktrfnAt7J++jwQtLZcm3sr9LQrjRzz6cfMv9aLvgmnAGvpoaGLxM4mAEaLV7iAzQ3oU0IvD5x9ix3yF2RAAuYAOO2f7PEFWCXZ4C9Pb2UsgDeVnFSpbFK7/IWu7TPTvBqzbGdCHOJQSxiEjt6IyZmxQyEJHv6xyQsYk//moVFsN2zP6fRImjfq7/n/wFDguUQFNEwugAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-important.callout-style-default .callout-title {
+    background-color: #f7dddc
+  }
+
+  div.callout-warning {
+    border-left-color: #f0ad4e !important;
+  }
+
+  div.callout-warning .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAETklEQVRYCeVWW2gcVRg+58yaTUnizqbipZeX4uWhBEniBaoUX1Ioze52t7sRq6APio9V9MEaoWlVsFasRq0gltaAPuxms8lu0gcviE/FFOstVbSIxgcv6SU7EZqmdc7v9+9mJtNks51NTUH84ed889/PP+cmxP+d5FIbMJmNbpREu4WUkiTtCicKny0l1pIKmBzovF2S+hIJHX8iEu3hZJ5lNZGqyRrGSIQpq15AzF28jgpeY6yk6GVdrfFqdrD6Iw+QlB8g0YS2g7dyQmXM/IDhBhT0UCiRf59lfqmmDvzRt6kByV/m4JjtzuaujMUM2c5Z2d6JdKrRb3K2q6mA+oYVz8JnDdKPmmNthzkAk/lN63sYPgevrguc72aZX/L9C6x09GYyxBgCX4NlvyGUHOKELlm5rXeR1kchuChJt4SSwyddZRXgvwMGvYo4QSlk3/zkHD8UHxwVJA6zjZZqP8v8kK8OWLnIZtLyCAJagYC4rTGW/9Pqj92N/c+LUaAj27movwbi19tk/whRCIE7Q9vyI6yvRpftAKVTdUjOW40X3h5OXsKCdmFcx0xlLJoSuQngnrJe7Kcjm4OMq9FlC7CMmScQANuNvjfP3PjGXDBaUQmbp296S5L4DrpbrHN1T87ZVEZVCzg1FF0Ft+dKrlLukI+/c9ENo+TvlTDbYFvuKPtQ9+l052rXrgKoWkDAFnvh0wTOmYn8R5f4k/jN/fZiCM1tQx9jQQ4ANhqG4hiL0qIFTGViG9DKB7GYzgubnpofgYRwO+DFjh0Zin2m4b/97EDkXkc+f6xYAPX0KK2I/7fUQuwzuwo/L3AkcjugPNixC8cHf0FyPjWlItmLxWw4Ou9YsQCr5fijMGoD/zpdRy95HRysyXA74MWOnscpO4j2y3HAVisw85hX5+AFBRSHt4ShfLFkIMXTqyKFc46xdzQM6XbAi702a7sy04J0+feReMFKp5q9esYLCqAZYw/k14E/xcLLsFElaornTuJB0svMuJINy8xkIYuL+xPAlWRceH6+HX7THJ0djLUom46zREu7tTkxwmf/FdOZ/sh6Q8qvEAiHpm4PJ4a/doJe0gH1t+aHRgCzOvBvJedEK5OFE5jpm4AGP2a8Dxe3gGJ/pAutug9Gp6he92CsSsWBaEcxGx0FHytmIpuqGkOpldqNYQK8cSoXvd+xLxXADw0kf6UkJNFtdo5MOgaLjiQOQHcn+A6h5NuL2s0qsC2LOM75PcF3yr5STuBSAcGG+meA14K/CI21HcS4LBT6tv0QAh8Dr5l93AhZzG5ZJ4VxAqdZUEl9z7WJ4aN+svMvwHHL21UKTd1mqvChH7/Za5xzXBBKrUcB0TQ+Ulgkfbi/H/YT5EptrGzsEK7tR1B7ln9BBwckYfMiuSqklSznIuoIIOM42MQO+QnduCoFCI0bpkzjCjddHPN/F+2Yu+sd9bKNpVwHhbS3LluK/0zgfwD0xYI5dXuzlQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-warning.callout-style-default .callout-title {
+    background-color: #fcefdc
+  }
+
+  div.callout-tip {
+    border-left-color: #02b875 !important;
+  }
+
+  div.callout-tip .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAADr0lEQVRYCe1XTWgTQRj9ZjZV8a9SPIkKgj8I1bMHsUWrqYLVg4Ue6v9BwZOxSYsIerFao7UiUryIqJcqgtpimhbBXoSCVxUFe9CTiogUrUp2Pt+3aUI2u5vdNh4dmMzOzHvvezuz8xNFM0mjnbXaNu1MvFWRXkXEyE6aYOYJpdW4IXuA4r0fo8qqSMDBU0v1HJUgVieAXxzCsdE/YJTdFcVIZQNMyhruOMJKXYFoLfIfIvVIMWdsrd+Rpd86ZmyzzjJmLStqRn0v8lzkb4rVIXvnpScOJuAn2ACC65FkPzEdEy4TPWRLJ2h7z4cArXzzaOdKlbOvKKX25Wl00jSnrwVxAg3o4dRxhO13RBSdNvH0xSARv3adTXbBdTf64IWO2vH0LT+cv4GR1DJt+DUItaQogeBX/chhbTBxEiZ6gftlDNXTrvT7co4ub5A6gp9HIcHvzTa46OS5fBeP87Qm0fQkr4FsYgVQ7Qg+ZayaDg9jhg1GkWj8RG6lkeSacrrHgDaxdoBiZPg+NXV/KifMuB6//JmYH4CntVEHy/keA6x4h4CU5oFy8GzrBS18cLJMXcljAKB6INjWsRcuZBWVaS3GDrqB7rdapVIeA+isQ57Eev9eCqzqOa81CY05VLd6SamW2wA2H3SiTbnbSxmzfp7WtKZkqy4mdyAlGx7ennghYf8voqp9cLSgKdqNfa6RdRsAAkPwRuJZNbpByn+RrJi1RXTwdi8RQF6ymDwGMAtZ6TVE+4uoKh+MYkcLsT0Hk8eAienbiGdjJHZTpmNjlbFJNKDVAp2fJlYju6IreQxQ08UJDNYdoLSl6AadO+fFuCQqVMB1NJwPm69T04Wv5WhfcWyfXQB+wXRs1pt+nCknRa0LVzSA/2B+a9+zQJadb7IyyV24YAxKp2Jqs3emZTuNnKxsah+uabKbMk7CbTgJx/zIgQYErIeTKRQ9yD9wxVof5YolPHqaWo7TD6tJlh7jQnK5z2n3+fGdggIOx2kaa2YI9QWarc5Ce1ipNWMKeSG4DysFF52KBmTNMmn5HqCFkwy34rDg05gDwgH3bBi+sgFhN/e8QvRn8kbamCOhgrZ9GJhFDgfcMHzFb6BAtjKpFhzTjwv1KCVuxHvCbsSiEz4CANnj84cwHdFXAbAOJ4LTSAawGWFn5tDhLMYz6nWeU2wJfIhmIJBefcd/A5FWQWGgrWzyORZ3Q6HuV+Jf0Bj+BTX69fm1zWgK7By1YTXchFDORywnfQ7GpzOo6S+qECrsx2ifVQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-tip.callout-style-default .callout-title {
+    background-color: #ccf1e3
+  }
+
+  div.callout-caution {
+    border-left-color: #fd7e14 !important;
+  }
+
+  div.callout-caution .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAACV0lEQVRYCdVWzWoUQRCuqp2ICBLJXgITZL1EfQDBW/bkzUMUD7klD+ATSHBEfAIfQO+iXsWDxJsHL96EHAwhgzlkg8nBg25XWb0zIb0zs9muYYWkoKeru+vn664fBqElyZNuyh167NXJ8Ut8McjbmEraKHkd7uAnAFku+VWdb3reSmRV8PKSLfZ0Gjn3a6Xlcq9YGb6tADjn+lUfTXtVmaZ1KwBIvFI11rRXlWlatwIAAv2asaa9mlB9wwygiDX26qaw1yYPzFXg2N1GgG0FMF8Oj+VIx7E/03lHx8UhvYyNZLN7BwSPgekXXLribw7w5/c8EF+DBK5idvDVYtEEwMeYefjjLAdEyQ3M9nfOkgnPTEkYU+sxMq0BxNR6jExrAI31H1rzvLEfRIdgcv1XEdj6QTQAS2wtstEALLG1yEZ3QhH6oDX7ExBSFEkFINXH98NTrme5IOaaA7kIfiu2L8A3qhH9zRbukdCqdsA98TdElyeMe5BI8Rs2xHRIsoTSSVFfCFCWGPn9XHb4cdobRIWABNf0add9jakDjQJpJ1bTXOJXnnRXHRf+dNL1ZV1MBRCXhMbaHqGI1JkKIL7+i8uffuP6wVQAzO7+qVEbF6NbS0LJureYcWXUUhH66nLR5rYmva+2tjRFtojkM2aD76HEGAD3tPtKM309FJg5j/K682ywcWJ3PASCcycH/22u+Bh7Aa0ehM2Fu4z0SAE81HF9RkB21c5bEn4Dzw+/qNOyXr3DCTQDMBOdhi4nAgiFDGCinIa2owCEChUwD8qzd03PG+qdW/4fDzjUMcE1ZpIAAAAASUVORK5CYII=');
+  }
+
+  div.callout-caution.callout-style-default .callout-title {
+    background-color: #ffe5d0
+  }
+
+  </style>
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+  <script src="ppt_se_files/libs/kePrint-0.0.1/kePrint.js"></script>
+  <link href="ppt_se_files/libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Bioeconomía en Bogotá - Región</h1>
+  <p class="subtitle">Sectores económicos asociados a la bioeconomía</p>
+
+<div class="quarto-title-authors">
+</div>
+
+</section>
+<section id="complementariedades-económicas-asociadas-a-la-bioeconomía" class="slide level2">
+<h2>Complementariedades económicas asociadas a la bioeconomía</h2>
+<p>La evaluación de las sinergias económicas en la Región Metropolitana, a través del análisis del transporte de mercancías, tiene como objetivo coordinar el intercambio de productos entre diversos municipios en relación con cadenas productivas concretas. Así, la sinergia económica se define por la habilidad de los municipios dentro de la región para sincronizar sus especialidades productivas y generar intercambios que fomenten una cooperación beneficiosa en el desarrollo de cadenas de valor que trascienden los límites municipales. En esta sección, se priorizan cadenas asociadas a la Misión Nacional de Bioeconomía, clasificando los productos asociadas a las siguientes categorías.</p>
+<div class="scrollable-table">
+<div class="cell" data-tbl-pos="H">
+<div id="tbl-catbioec" class="cell quarto-float" data-tbl-pos="H">
+<figure class="quarto-float quarto-float-tbl">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-catbioec-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;1: Categorias de cadenas asociadas a la bioeconomía
+</figcaption>
+<div aria-describedby="tbl-catbioec-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<div id="uqsuommytg" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#uqsuommytg table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#uqsuommytg thead, #uqsuommytg tbody, #uqsuommytg tfoot, #uqsuommytg tr, #uqsuommytg td, #uqsuommytg th {
+  border-style: none;
+}
+
+#uqsuommytg p {
+  margin: 0;
+  padding: 0;
+}
+
+#uqsuommytg .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#uqsuommytg .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#uqsuommytg .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#uqsuommytg .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#uqsuommytg .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#uqsuommytg .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#uqsuommytg .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#uqsuommytg .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#uqsuommytg .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#uqsuommytg .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#uqsuommytg .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#uqsuommytg .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#uqsuommytg .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#uqsuommytg .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#uqsuommytg .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#uqsuommytg .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#uqsuommytg .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#uqsuommytg .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#uqsuommytg .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#uqsuommytg .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#uqsuommytg .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#uqsuommytg .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#uqsuommytg .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#uqsuommytg .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#uqsuommytg .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#uqsuommytg .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#uqsuommytg .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#uqsuommytg .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#uqsuommytg .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#uqsuommytg .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#uqsuommytg .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#uqsuommytg .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#uqsuommytg .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#uqsuommytg .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#uqsuommytg .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#uqsuommytg .gt_left {
+  text-align: left;
+}
+
+#uqsuommytg .gt_center {
+  text-align: center;
+}
+
+#uqsuommytg .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#uqsuommytg .gt_font_normal {
+  font-weight: normal;
+}
+
+#uqsuommytg .gt_font_bold {
+  font-weight: bold;
+}
+
+#uqsuommytg .gt_font_italic {
+  font-style: italic;
+}
+
+#uqsuommytg .gt_super {
+  font-size: 65%;
+}
+
+#uqsuommytg .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#uqsuommytg .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#uqsuommytg .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#uqsuommytg .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#uqsuommytg .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#uqsuommytg .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#uqsuommytg .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+
+<table class="gt_table do-not-create-environment cell" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<thead>
+<tr class="header gt_col_headings">
+<th id="Fuente" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Fuente</th>
+<th id="Categoría" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Categoría</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_left" headers="Fuente" style="vertical-align: middle">Misión Nacional de Bioeconomía</td>
+<td class="gt_row gt_left" headers="Categoría">Turismo de naturaleza</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Fuente" style="visibility: hidden; border-top: 0px">Misión Nacional de Bioeconomía</td>
+<td class="gt_row gt_left" headers="Categoría">Medicamentos esenciales, biotecnológicos, biosimilares y fitoterapéuticos</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Fuente" style="visibility: hidden; border-top: 0px">Misión Nacional de Bioeconomía</td>
+<td class="gt_row gt_left" headers="Categoría">Ingredientes naturales y bioactivos para alimentos, cosméticos y farma</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Fuente" style="visibility: hidden; border-top: 0px">Misión Nacional de Bioeconomía</td>
+<td class="gt_row gt_left" headers="Categoría">Agricultura, ganadería sostenible y de precisión</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Fuente" style="visibility: hidden; border-top: 0px">Misión Nacional de Bioeconomía</td>
+<td class="gt_row gt_left" headers="Categoría">Bioinsumos agrícolas</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Fuente" style="visibility: hidden; border-top: 0px">Misión Nacional de Bioeconomía</td>
+<td class="gt_row gt_left" headers="Categoría">Química verde</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Fuente" style="visibility: hidden; border-top: 0px">Misión Nacional de Bioeconomía</td>
+<td class="gt_row gt_left" headers="Categoría">Bioenergía y biocombustibles</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Fuente" style="visibility: hidden; border-top: 0px">Misión Nacional de Bioeconomía</td>
+<td class="gt_row gt_left" headers="Categoría">Biofactorías y biorefinerías</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Fuente" style="visibility: hidden; border-top: 0px">Misión Nacional de Bioeconomía</td>
+<td class="gt_row gt_left" headers="Categoría">Medicina personalizada y traslacional</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Fuente" style="visibility: hidden; border-top: 0px">Misión Nacional de Bioeconomía</td>
+<td class="gt_row gt_left" headers="Categoría">Medicina regenerativa</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Fuente" style="visibility: hidden; border-top: 0px">Misión Nacional de Bioeconomía</td>
+<td class="gt_row gt_left" headers="Categoría">Biotecnología avanzada en salud a escala productiva y comercial</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Fuente" style="vertical-align: middle">Autor</td>
+<td class="gt_row gt_left" headers="Categoría">Productos asociados a residuos de actividades económicas</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Fuente" style="visibility: hidden; border-top: 0px">Autor</td>
+<td class="gt_row gt_left" headers="Categoría">Productos de la industria que usan la madera</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Fuente" style="visibility: hidden; border-top: 0px">Autor</td>
+<td class="gt_row gt_left" headers="Categoría">Productos de industria manufacturera que usan recurso biológico</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="ingredientes-naturales-y-bioactivos-para-alimentos-cosméticos-y-farma" class="slide level2">
+<h2>Ingredientes naturales y bioactivos para alimentos, cosméticos y farma</h2>
+<p>En el RNC se encontraron las siguientes mercancías asociadas a Ingredientes naturales y bioactivos para alimentos, cosméticos y farma (ver <a href="#/ingredientes-naturales-y-bioactivos-para-alimentos-cosméticos-y-farma" class="quarto-xref">Tabla&nbsp;2</a>), con un total de flujo de mercancía de 3042 viajes de Bogotá hacia los municipios, destacando Funza (941), Mosquera (600) y Facatativá (525) viajes. En el caso opuesto, de los municipios de Bogotá - Región a la capital existe un total de 2400 viajes de Bogotá hacia los municipios, destacando Funza (1893), Cota (178) y Tocancipá (96).</p>
+<div class="panel-tabset">
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Plot</a></li><li><a href="#tabset-1-2">Data</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1">
+<div id="fig-inmapsector" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-inmapsector-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;1: Complementariedad económica del sector
+</figcaption>
+<div aria-describedby="fig-inmapsector-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="cell-output-display quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-inmapsector" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-inmapsector-1" class="quarto-figure quarto-figure-center quarto-float">
+<figure class="quarto-float quarto-subfloat-fig">
+<div aria-describedby="fig-inmapsector-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img data-src="ppt_se_files/figure-revealjs/fig-inmapsector-1.png" data-ref-parent="fig-inmapsector" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-inmapsector-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Origen
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="cell-output-display quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-inmapsector" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-inmapsector-2" class="quarto-figure quarto-figure-center quarto-float">
+<figure class="quarto-float quarto-subfloat-fig">
+<div aria-describedby="fig-inmapsector-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img data-src="ppt_se_files/figure-revealjs/fig-inmapsector-2.png" data-ref-parent="fig-inmapsector" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-inmapsector-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) Destino
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</figure>
+</div>
+</div>
+<div id="tabset-1-2">
+<div class="scrollable-table">
+<div class="cell" data-tbl-pos="H">
+<div id="tbl-inmercancia" class="cell quarto-float" data-tbl-pos="H">
+<figure class="quarto-float quarto-float-tbl">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-inmercancia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;2: Sectores económicos priorizados por área estatégica en bioeconomía
+</figcaption>
+<div aria-describedby="tbl-inmercancia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<table class="do-not-create-environment cell" data-quarto-postprocess="true" style="NAborder-bottom: 0;">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">mercancia</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">viajes_origen</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">viajes_destino</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">grasas y aceites; animales o vegetales; y sus fracciones; parcial o totalme</td>
+<td style="text-align: right;">939</td>
+<td style="text-align: right;">77</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">margarina; mezclas o preparaciones alimenticias de grasas o de aceites; anima</td>
+<td style="text-align: right;">739</td>
+<td style="text-align: right;">26</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">aceite de palma y sus fracciones; incluso refinado; pero sin modificar quimi</td>
+<td style="text-align: right;">499</td>
+<td style="text-align: right;">46</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">aceites esenciales (desterpenados o no); incluidos los &lt;concretos&gt; o &lt;absolut</td>
+<td style="text-align: right;">335</td>
+<td style="text-align: right;">1258</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">almidon y fecula; inulina</td>
+<td style="text-align: right;">253</td>
+<td style="text-align: right;">71</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">extractos; esencias y concentrados de cafe; te o yerba mate y preparaciones</td>
+<td style="text-align: right;">224</td>
+<td style="text-align: right;">900</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">aceite de cacahuete (mani) y sus fracciones; incluso refinado; pero sin modi</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">aceites de coco (copra); de almendra; de palma o babasu; sus fracciones; inc</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">aceite de soja(soya) y sus fracciones; incluso refinado; pero sin modificar</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">aceites de girasol; de cartamo o de algodon; y sus fracciones; incluso refi</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">los demas aceites obtenidos exclusivamente de la aceituna; y sus fracciones</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">manteca; grasa y aceite de cacao</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">10</td>
+</tr>
+</tbody><tfoot>
+<tr class="odd">
+<td style="text-align: left; padding: 0;"><span style="font-style: italic;text-decoration: underline;">Fuente: </span> <sup></sup> Elaboración propia</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left; padding: 0;"><span style="font-style: italic;text-decoration: underline;">Información: </span> <sup>1</sup> Misión Nacional de Bioeconomía</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+</tfoot>
+
+</table>
+
+
+</div>
+</div>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="bioenergía-y-biocombustibles" class="slide level2">
+<h2>Bioenergía y biocombustibles</h2>
+<p>En el RNC se encontraron las siguientes mercancías asociadas a Bioenergía y biocombustibles (ver <a href="#/bioenergía-y-biocombustibles" class="quarto-xref">Tabla&nbsp;3</a>), solamente existió 1 viaje de Bogotá hacia los municipios, destacando Funza (1). Por lo tanto, no es un sector prioritario para la bioeconomía de Bogotá - Región.</p>
+<div class="panel-tabset">
+<ul id="tabset-2" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-2-1">Plot</a></li><li><a href="#tabset-2-2">Data</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1">
+<div class="cell fig-cap-location-top">
+<div class="cell-output-display">
+<div id="fig-energymapsector" class="quarto-figure quarto-figure-center quarto-float" data-cap-location="top">
+<figure class="quarto-float quarto-float-fig">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-energymapsector-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;2: Complementariedad económica del sector
+</figcaption>
+<div aria-describedby="fig-energymapsector-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img data-src="ppt_se_files/figure-revealjs/fig-energymapsector-1.png" width="672">
+</div>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-2-2">
+<div class="cell" data-tbl-pos="H">
+<div id="tbl-energymercancia" class="cell quarto-float" data-tbl-pos="H">
+<figure class="quarto-float quarto-float-tbl">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-energymercancia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;3: Sectores económicos priorizados por área estatégica en bioeconomía
+</figcaption>
+<div aria-describedby="tbl-energymercancia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<table class="do-not-create-environment cell" data-quarto-postprocess="true" style="NAborder-bottom: 0;">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">mercancia</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">viajes_destino</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">biodiésel y sus mezclas, sin aceites de petróleo o de mineral bituminoso o con un contenido inferior al 70 % en peso.</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody><tfoot>
+<tr class="even">
+<td style="text-align: left; padding: 0;"><span style="font-style: italic;text-decoration: underline;">Fuente: </span> <sup></sup> Elaboración propia</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; padding: 0;"><span style="font-style: italic;text-decoration: underline;">Información: </span> <sup>1</sup> Misión Nacional de Bioeconomía</td>
+<td style="text-align: right;"></td>
+</tr>
+</tfoot>
+
+</table>
+
+
+</div>
+</div>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="bioinsumos-agrícolas" class="slide level2">
+<h2>Bioinsumos agrícolas</h2>
+<p>En el RNC se encontraron las siguientes mercancías asociadas a Bioinsumos agrícolas (ver <a href="#/bioinsumos-agrícolas" class="quarto-xref">Tabla&nbsp;4</a>), con un total de flujo de mercancía de 35 viajes de Bogotá hacia los municipios, destacando Facatativá (10), Funza (9) y Cota (8) viajes. En el caso opuesto, de los municipios de Bogotá - Región a la capital existe un total de 230 viajes de Bogotá hacia los municipios, destacando Cota (197), Funza (31) y Tocancipá (2)</p>
+<div class="panel-tabset">
+<ul id="tabset-3" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-3-1">Plot</a></li><li><a href="#tabset-3-2">Data</a></li></ul>
+<div class="tab-content">
+<div id="tabset-3-1">
+<div id="fig-insumomapsector" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-insumomapsector-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;3: Complementariedad económica del sector
+</figcaption>
+<div aria-describedby="fig-insumomapsector-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="cell-output-display quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-insumomapsector" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-insumomapsector-1" class="quarto-figure quarto-figure-center quarto-float">
+<figure class="quarto-float quarto-subfloat-fig">
+<div aria-describedby="fig-insumomapsector-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img data-src="ppt_se_files/figure-revealjs/fig-insumomapsector-1.png" data-ref-parent="fig-insumomapsector" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-insumomapsector-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Origen
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="cell-output-display quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-insumomapsector" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-insumomapsector-2" class="quarto-figure quarto-figure-center quarto-float">
+<figure class="quarto-float quarto-subfloat-fig">
+<div aria-describedby="fig-insumomapsector-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img data-src="ppt_se_files/figure-revealjs/fig-insumomapsector-2.png" data-ref-parent="fig-insumomapsector" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-insumomapsector-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) Destino
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</figure>
+</div>
+</div>
+<div id="tabset-3-2">
+<div class="cell" data-tbl-pos="H">
+<div id="tbl-insumomercancia" class="cell quarto-float" data-tbl-pos="H">
+<figure class="quarto-float quarto-float-tbl">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-insumomercancia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;4: Sectores económicos priorizados por área estatégica en bioeconomía
+</figcaption>
+<div aria-describedby="tbl-insumomercancia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<table class="do-not-create-environment cell" data-quarto-postprocess="true" style="NAborder-bottom: 0;">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">mercancia</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">viajes_origen</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">viajes_destino</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">abonos de origen animal o vegetal; incluso mezclados entre si o tratados quim</td>
+<td style="text-align: right;">35</td>
+<td style="text-align: right;">230</td>
+</tr>
+</tbody><tfoot>
+<tr class="even">
+<td style="text-align: left; padding: 0;"><span style="font-style: italic;text-decoration: underline;">Fuente: </span> <sup></sup> Elaboración propia</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; padding: 0;"><span style="font-style: italic;text-decoration: underline;">Información: </span> <sup>1</sup> Misión Nacional de Bioeconomía</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+</tfoot>
+
+</table>
+
+
+</div>
+</div>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="catalizadores-biológicos" class="slide level2">
+<h2>Catalizadores biológicos</h2>
+<p>En el RNC se encontraron las siguientes mercancías asociadas a Catalizadores biológicos (ver <a href="#/catalizadores-biológicos" class="quarto-xref">Tabla&nbsp;5</a>), se presenta solamente 1 viaje de Bogotá hacia los municipios Tocancipá (1).</p>
+<div class="panel-tabset">
+<ul id="tabset-4" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-4-1">Plot</a></li><li><a href="#tabset-4-2">Data</a></li></ul>
+<div class="tab-content">
+<div id="tabset-4-1">
+<div class="cell fig-cap-location-top">
+<div class="cell-output-display">
+<div id="fig-catbiomapsector" class="quarto-figure quarto-figure-center quarto-float" data-cap-location="top">
+<figure class="quarto-float quarto-float-fig">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-catbiomapsector-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;4: Complementariedad económica del sector - Origen
+</figcaption>
+<div aria-describedby="fig-catbiomapsector-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img data-src="ppt_se_files/figure-revealjs/fig-catbiomapsector-1.png" width="672">
+</div>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-4-2">
+<div class="cell" data-tbl-pos="H">
+<div id="tbl-catbiomercancia" class="cell quarto-float" data-tbl-pos="H">
+<figure class="quarto-float quarto-float-tbl">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-catbiomercancia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;5: Sectores económicos priorizados por área estatégica en bioeconomía
+</figcaption>
+<div aria-describedby="tbl-catbiomercancia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<table class="do-not-create-environment cell" data-quarto-postprocess="true" style="NAborder-bottom: 0;">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">mercancia</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">viajes_origen</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">medios de cultivo preparados para el desarrollo de microorganismos</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody><tfoot>
+<tr class="even">
+<td style="text-align: left; padding: 0;"><span style="font-style: italic;text-decoration: underline;">Fuente: </span> <sup></sup> Elaboración propia</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; padding: 0;"><span style="font-style: italic;text-decoration: underline;">Información: </span> <sup>1</sup> Misión Nacional de Bioeconomía</td>
+<td style="text-align: right;"></td>
+</tr>
+</tfoot>
+
+</table>
+
+
+</div>
+</div>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="productos-asociados-a-residuos" class="slide level2">
+<h2>Productos asociados a residuos</h2>
+<p>En el RNC se encontraron las siguientes mercancías asociadas a Productos asociados a residuos de actividades económicas (ver <a href="#/productos-asociados-a-residuos" class="quarto-xref">Tabla&nbsp;6</a>), con un total de flujo de mercancía de 4945 viajes de Bogotá hacia los municipios, destacando Soacha (919), Chía (810) y Gachancipá (556) viajes. En el caso opuesto, de los municipios de Bogotá - Región a la capital existe un total de 470 viajes de Bogotá hacia los municipios, destacando Cogua (173), Cajicá (94) y Funza (69)</p>
+<div class="panel-tabset">
+<ul id="tabset-5" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-5-1">Plot</a></li><li><a href="#tabset-5-2">Data</a></li></ul>
+<div class="tab-content">
+<div id="tabset-5-1">
+<div id="fig-resimapsector" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-resimapsector-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;5: Complementariedad económica del sector
+</figcaption>
+<div aria-describedby="fig-resimapsector-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="cell-output-display quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-resimapsector" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-resimapsector-1" class="quarto-figure quarto-figure-center quarto-float">
+<figure class="quarto-float quarto-subfloat-fig">
+<div aria-describedby="fig-resimapsector-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img data-src="ppt_se_files/figure-revealjs/fig-resimapsector-1.png" data-ref-parent="fig-resimapsector" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-resimapsector-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Origen
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="cell-output-display quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-resimapsector" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-resimapsector-2" class="quarto-figure quarto-figure-center quarto-float">
+<figure class="quarto-float quarto-subfloat-fig">
+<div aria-describedby="fig-resimapsector-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img data-src="ppt_se_files/figure-revealjs/fig-resimapsector-2.png" data-ref-parent="fig-resimapsector" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-resimapsector-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) Destino
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</figure>
+</div>
+</div>
+<div id="tabset-5-2">
+<div class="scrollable-table">
+<div class="cell" data-tbl-pos="H">
+<div id="tbl-resimercancia" class="cell quarto-float" data-tbl-pos="H">
+<figure class="quarto-float quarto-float-tbl">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-resimercancia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;6: Sectores económicos priorizados por área estatégica en bioeconomía
+</figcaption>
+<div aria-describedby="tbl-resimercancia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<table class="do-not-create-environment cell" data-quarto-postprocess="true" style="NAborder-bottom: 0;">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">mercancia</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">viajes_origen</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">viajes_destino</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">embutidos y productos similares; de carne; de despojos o de sangre; preparac</td>
+<td style="text-align: right;">3987</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">papel o carton para reciclar (desperdicios y desechos)</td>
+<td style="text-align: right;">414</td>
+<td style="text-align: right;">127</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">las demas grasas y aceites animales; y sus fracciones; incluso refinados; p</td>
+<td style="text-align: right;">364</td>
+<td style="text-align: right;">210</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">los demas azucares; incluidas la lactosa; lamaltosa; la glucosa y la fructo</td>
+<td style="text-align: right;">154</td>
+<td style="text-align: right;">84</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">residuos de la industria del almidon y residuos similares; pulpa de remolacha</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">24</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">grasas y aceites; de pescado o de mamiferos marinos; y sus fracciones; incl</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">carbon vegetal (incluido el de cascaras o de huesos de frutas); aunque este a</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">goma laca; gomas; resinas; gomorresinas y oleorresinas (balsamos) naturales</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">las demas preparaciones y conservas de carne; de despojos o de sangre</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">20</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">degras; residuos del tratamiento de las grasas o de las ceras animales o vegetal</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">grasa de cerdo (incluida la manteca de cerdo); y grasa de ave; excepto las d</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">grasa de lana y sustancias grasas derivadas; incluida la lanolina</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">grasas de animales de las especies bovina; ovina o caprina; excepto las de l</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody><tfoot>
+<tr class="even">
+<td style="text-align: left; padding: 0;"><span style="font-style: italic;text-decoration: underline;">Fuente: </span> <sup></sup> Elaboración propia</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; padding: 0;"><span style="font-style: italic;text-decoration: underline;">Información: </span> <sup>1</sup> Misión Nacional de Bioeconomía</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+</tfoot>
+
+</table>
+
+
+</div>
+</div>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="productos-de-industria-manufacturera-que-usan-recursos-biológicos" class="slide level2">
+<h2>Productos de industria manufacturera que usan recursos biológicos</h2>
+<p>En el RNC se encontraron las siguientes mercancías asociadas a Productos de industria manufacturera que usan recurso biológico (ver <a href="#/productos-de-industria-manufacturera-que-usan-recursos-biológicos" class="quarto-xref">Tabla&nbsp;7</a>), con un total de flujo de mercancía de 180 viajes de Bogotá hacia los municipios, destacando Funza (72), Sibaté (39) y Cota (24) viajes. En el caso opuesto, de los municipios de Bogotá - Región a la capital existe un total de 179 viajes de Bogotá hacia los municipios, destacando Mosquera (95), Funza (57) y Cota (20)</p>
+<div class="panel-tabset">
+<ul id="tabset-6" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-6-1">Plot</a></li><li><a href="#tabset-6-2">Data</a></li></ul>
+<div class="tab-content">
+<div id="tabset-6-1">
+<div id="fig-manumapsector" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-manumapsector-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;6: Complementariedad económica del sector
+</figcaption>
+<div aria-describedby="fig-manumapsector-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="cell-output-display quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-manumapsector" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-manumapsector-1" class="quarto-figure quarto-figure-center quarto-float">
+<figure class="quarto-float quarto-subfloat-fig">
+<div aria-describedby="fig-manumapsector-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img data-src="ppt_se_files/figure-revealjs/fig-manumapsector-1.png" data-ref-parent="fig-manumapsector" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-manumapsector-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Origen
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="cell-output-display quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-manumapsector" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-manumapsector-2" class="quarto-figure quarto-figure-center quarto-float">
+<figure class="quarto-float quarto-subfloat-fig">
+<div aria-describedby="fig-manumapsector-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img data-src="ppt_se_files/figure-revealjs/fig-manumapsector-2.png" data-ref-parent="fig-manumapsector" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-manumapsector-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) Destino
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</figure>
+</div>
+</div>
+<div id="tabset-6-2">
+<div class="scrollable-table">
+<div class="cell" data-tbl-pos="H">
+<div id="tbl-manumercancia" class="cell quarto-float" data-tbl-pos="H">
+<figure class="quarto-float quarto-float-tbl">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-manumercancia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;7: Sectores económicos priorizados por área estatégica en bioeconomía
+</figcaption>
+<div aria-describedby="tbl-manumercancia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<table class="do-not-create-environment cell" data-quarto-postprocess="true" style="NAborder-bottom: 0;">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">mercancia</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">viajes_origen</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">viajes_destino</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">tejidos de punto de anchura inferior o igual a 30 cm, con un contenido de hilos de caucho superior o igual al 5 porciento en peso, excepto los de la partida 6001</td>
+<td style="text-align: right;">59</td>
+<td style="text-align: right;">20</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">tejidos de algodon con un contenido de algodon superior o igual al 85 % en pes</td>
+<td style="text-align: right;">41</td>
+<td style="text-align: right;">18</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">tejidos de yute o demas fibras textiles del liber de la partida 5303</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">desperdicios de algodon (incluidos los desperdicios de hilados y las hilachas)</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">tejidos de las demas fibras textiles vegetales; tejidos de hilados de papel</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">algodon cardado o peinado</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">hilados de algodon (excepto el hilo de coser) con un contenido de algodon; e</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">12</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">hilados de algodon (excepto el hilo de coser) acondicionado para la venta al por</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">hilo de coser de algodon; incluso acondicionado para la venta al por menor</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">los demas tejidos de algodon</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">tejidos de punto de anchura superior a 30 cm, con un contenido de hilados de elastómeros o de hilos de caucho superior o igual al 5% en peso, excepto los de la partida 6001</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">terciopelo y felpa excepto los de punto; y tejidos de chenilla; excepto los</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">coco; abaca (ca?amo de manila o musa textilis nee); ramio y demas fibras tex</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">tejidos de gasa de vuelta; excepto los productos de la partida 5806</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">yute y demas fibras textiles del liber (con exclusion del lino; ca?amo y rami</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">58</td>
+</tr>
+</tbody><tfoot>
+<tr class="even">
+<td style="text-align: left; padding: 0;"><span style="font-style: italic;text-decoration: underline;">Fuente: </span> <sup></sup> Elaboración propia</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left; padding: 0;"><span style="font-style: italic;text-decoration: underline;">Información: </span> <sup>1</sup> Misión Nacional de Bioeconomía</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+</tfoot>
+
+</table>
+
+
+</div>
+</div>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="productos-de-la-industria-que-usan-madera" class="slide level2">
+<h2>Productos de la industria que usan madera</h2>
+<p>En el RNC se encontraron las siguientes mercancías asociadas a Productos de la industria que usan la madera (ver <a href="#/productos-de-la-industria-que-usan-madera" class="quarto-xref">Tabla&nbsp;8</a>), con un total de flujo de mercancía de 12833 viajes de Bogotá hacia los municipios, destacando Cajicá (2891), Funza (2594) y Madrid (1673) viajes. En el caso opuesto, de los municipios de Bogotá - Región a la capital existe un total de 48088 viajes de Bogotá hacia los municipios, destacando Cota (14076), Funza (12431) y Cajicá (5871)</p>
+<div class="panel-tabset">
+<ul id="tabset-7" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-7-1">Plot</a></li><li><a href="#tabset-7-2">Data</a></li></ul>
+<div class="tab-content">
+<div id="tabset-7-1">
+<div id="fig-maderamapsector" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-maderamapsector-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;7: Complementariedad económica del sector
+</figcaption>
+<div aria-describedby="fig-maderamapsector-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="cell-output-display quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-maderamapsector" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-maderamapsector-1" class="quarto-figure quarto-figure-center quarto-float">
+<figure class="quarto-float quarto-subfloat-fig">
+<div aria-describedby="fig-maderamapsector-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img data-src="ppt_se_files/figure-revealjs/fig-maderamapsector-1.png" data-ref-parent="fig-maderamapsector" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-maderamapsector-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Origen
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="cell-output-display quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-maderamapsector" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-maderamapsector-2" class="quarto-figure quarto-figure-center quarto-float">
+<figure class="quarto-float quarto-subfloat-fig">
+<div aria-describedby="fig-maderamapsector-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img data-src="ppt_se_files/figure-revealjs/fig-maderamapsector-2.png" data-ref-parent="fig-maderamapsector" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-maderamapsector-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) Destino
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</figure>
+</div>
+</div>
+<div id="tabset-7-2">
+<div class="scrollable-table">
+<div class="cell" data-tbl-pos="H">
+<div id="tbl-maderamercancia" class="cell quarto-float" data-tbl-pos="H">
+<figure class="quarto-float quarto-float-tbl">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-maderamercancia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;8: Sectores económicos priorizados por área estatégica en bioeconomía
+</figcaption>
+<div aria-describedby="tbl-maderamercancia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<table class="do-not-create-environment cell" data-quarto-postprocess="true" style="NAborder-bottom: 0;">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">mercancia</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">viajes_origen</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">viajes_destino</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">cajones; cajas; jaulas; tambores y envases similares; de madera; carretes</td>
+<td style="text-align: right;">5408</td>
+<td style="text-align: right;">26260</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">papel y carton corrugados (incluso revestidos por encolado); rizados (&lt;crepes</td>
+<td style="text-align: right;">2910</td>
+<td style="text-align: right;">12438</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">papel del tipo del utilizado para papel higienico; toallitas para desmaquilla</td>
+<td style="text-align: right;">2584</td>
+<td style="text-align: right;">6898</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">papel y carton obtenidos por pegado de hojas planas; sin estucar ni recubrir</td>
+<td style="text-align: right;">693</td>
+<td style="text-align: right;">24</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">madera en bruto; incluso descortezada; desalburada o escuadrada</td>
+<td style="text-align: right;">250</td>
+<td style="text-align: right;">150</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">las demas manufacturas de madera</td>
+<td style="text-align: right;">198</td>
+<td style="text-align: right;">35</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">madera contrachapada; madera chapada y madera estratificada similar</td>
+<td style="text-align: right;">158</td>
+<td style="text-align: right;">24</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">herramientas; monturas y mangos de herramientas; monturas de cepillos; mang</td>
+<td style="text-align: right;">128</td>
+<td style="text-align: right;">141</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">tableros de particulas y tableros similares de madera o de otras materias le?o</td>
+<td style="text-align: right;">121</td>
+<td style="text-align: right;">27</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">bloques y placas; filtrantes; de pasta de papel -</td>
+<td style="text-align: right;">70</td>
+<td style="text-align: right;">30</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">los demas papeles y cartones; sin estucar ni recubrir; en bobinas (rollos)</td>
+<td style="text-align: right;">52</td>
+<td style="text-align: right;">648</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">madera (incluidas las tablillas y frisos para parques; sin ensamblar) perfila</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">13</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">madera densificada en bloques; planchas; tablas o perfiles</td>
+<td style="text-align: right;">49</td>
+<td style="text-align: right;">667</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">papel y carton kraft; sin estucar ni recubrir; en bobinas o en hojas; excep</td>
+<td style="text-align: right;">43</td>
+<td style="text-align: right;">35</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">construcciones prefabricadas</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">13</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">papel y carton; sin estucar ni recubrir; del tipo de los utilizados para esc</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">149</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">madera aserrada o desbastada longitudinalmente; cortada o desenrollada; incl</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">35</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">papel del tipo del utilizado para papel higienico y papeles similares; guata</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">20</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">articulos de mesa o de cocina; de madera</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">11</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">flejes de madera; rodrigones hendidos; estacas de madera; apuntadas; sin ase</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">obras y piezas de carpinteria para construcciones; incluidos los tableros cel</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">350</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">le?a; madera en plaquitas o particulas; aserrin; desperdicios y desechos; d</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">30</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">tableros de fibra de madera u otras materias le?osas; incluso aglomerados co</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">marqueteria y taracea; cofres; cajas y estuches para joyeria u orfebreria y m</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">papel carbon; papel autocopia y demas papeles para copiar o transferir (excep</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">papel y carton sulfurizado; papel resistente a las grasas; papel vegetal</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">trenzas y articulos similares; de materias trenzables; materias trenzables;</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">11</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">articulos de cesteria obtenidos directamente en su forma con materias trenzables</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">lana (viruta) de madera; harina de madera</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">papel para decorar y revestimientos similares de paredes; papel para vidrieras</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">5</td>
+</tr>
+</tbody><tfoot>
+<tr class="odd">
+<td style="text-align: left; padding: 0;"><span style="font-style: italic;text-decoration: underline;">Fuente: </span> <sup></sup> Elaboración propia</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left; padding: 0;"><span style="font-style: italic;text-decoration: underline;">Información: </span> <sup>1</sup> Misión Nacional de Bioeconomía</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+</tfoot>
+
+</table>
+
+
+</div>
+</div>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="quarto-auto-generated-content">
+<div class="footer footer-default">
+
+</div>
+</div>
+</section>
+    </div>
+  </div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="ppt_se_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="ppt_se_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="ppt_se_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="ppt_se_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="ppt_se_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="ppt_se_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="ppt_se_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="ppt_se_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="ppt_se_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="ppt_se_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
+    <script id="quarto-html-after-body" type="application/javascript">
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
+        }
+      }
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
+      }
+      toggleBodyColorPrimary();  
+      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+      tabsets.forEach(function(tabset) {
+        const tabby = new Tabby('#' + tabset.id);
+      });
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
+          }
+        }
+        return false;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button', {
+        text: function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+      });
+      clipboard.on('success', function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copiado");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copiado");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
+        setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      });
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+        const config = {
+          allowHTML: true,
+          maxWidth: 500,
+          delay: 100,
+          arrow: false,
+          appendTo: function(el) {
+              return el.closest('section.slide') || el.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start',
+        };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
+          config['offset'] = [0,0];
+          config['maxWidth'] = 700;
+        window.tippy(el, config); 
+      }
+      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+      for (var i=0; i<noterefs.length; i++) {
+        const ref = noterefs[i];
+        tippyHover(ref, function() {
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+          try { href = new URL(href).hash; } catch {}
+          const id = href.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          return note.innerHTML;
+        });
+      }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
+      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+      for (var i=0; i<bibliorefs.length; i++) {
+        const ref = bibliorefs[i];
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
+          });
+        }
+      }
+    });
+    </script>
+    
+
+</body></html>
